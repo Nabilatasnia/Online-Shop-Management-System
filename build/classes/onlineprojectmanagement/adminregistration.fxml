@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="onlineprojectmanagement.AdminregistrationController">
+  <children>
+    <Text layoutX="237.0" layoutY="70.0" scaleX="1.9677951969224903" scaleY="2.2029368575624084" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Registration">
+      <font>
+        <Font name="Arial" size="15.0" />
+      </font>
+    </Text>
+    <TextField fx:id="adminemail" layoutX="223.0" layoutY="129.0" prefWidth="350.0" promptText="Email" />
+    <Text layoutX="44.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+      <font>
+        <Font name="Arial" size="20.0" />
+      </font>
+    </Text>
+    <Label layoutX="35.0" layoutY="132.0" text="Email:">
+      <font>
+        <Font name="Arial Bold" size="15.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="35.0" layoutY="189.0" text="Password: " />
+    <Label font="$x1" layoutX="35.0" layoutY="252.0" text="Confirm Password: " />
+    <Button layoutX="260.0" layoutY="325.0" mnemonicParsing="false" onAction="#Register" text="Register" />
+    <PasswordField layoutX="223.0" layoutY="185.0" prefWidth="350.0" promptText="Password" />
+    <PasswordField layoutX="223.0" layoutY="248.0" prefWidth="350.0" promptText="Confirm Password" />
+  </children>
+</AnchorPane>

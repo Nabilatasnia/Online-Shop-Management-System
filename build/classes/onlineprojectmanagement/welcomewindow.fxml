@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="onlineprojectmanagement.WelcomewindowController">
+  <children>
+    <Text layoutX="218.0" layoutY="95.0" scaleX="2.235281600642392" scaleY="3.3056289657639746" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the system! " />
+    <Button fx:id="addamin" layoutX="251.0" layoutY="187.0" mnemonicParsing="false" onAction="#addAdmin" text="Add admin" />
+  </children>
+</AnchorPane>
